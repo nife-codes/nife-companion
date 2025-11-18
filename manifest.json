@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Nife Companion",
+  "version": "1.0.0",
+  "description": "A cute cursor-following companion.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
